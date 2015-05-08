@@ -1,0 +1,14 @@
+{
+	"modules": [
+		{
+			"name": "core"
+		},
+		{
+			"name": "res"
+		}
+	],
+	"native": {
+		"path_ignore": []
+	},
+	"egret_version": "1.7.0"
+}
