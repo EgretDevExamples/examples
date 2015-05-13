@@ -1,0 +1,19 @@
+{
+	"document_class": "game.jumper.Bootstrap",
+	"modules": [
+		{
+			"name": "core"
+		},
+		{
+			"name": "res"
+		},
+		{
+			"name": "physics",
+			"path": "../libsrc/physics"
+		}
+	],
+	"native": {
+		"path_ignore": []
+	},
+	"egret_version": "1.7.0"
+}
