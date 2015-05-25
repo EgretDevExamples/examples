@@ -1,0 +1,9 @@
+{
+	"resources": [
+		{
+			"name": "description",
+			"type": "json",
+			"url": "config/description.json"
+		}
+	]
+}
