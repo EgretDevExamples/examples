@@ -1,48 +1,15 @@
 {
-	"groups":[
-	{
-		"keys":"button_disabled_png,button_down_png,button_normal_png,panel_back_png,panel_headeback_png",
-		"name":"preload"
-	},
-    {
-      "keys": "sound",
-      "name": "soundload"
-    }
-    ],
-	"resources":[
-    {
-      "url": "sound/sound.mp3",
-      "type": "sound",
-      "name": "sound"
-    },
-	{
-		"name":"button_disabled_png",
-		"scale9grid":"3,4,14,13",
-		"type":"image",
-		"url":"assets/simple/NormalButton/button_disabled.png"
-	},
-	{
-		"name":"button_down_png",
-		"scale9grid":"4,3,13,14",
-		"type":"image",
-		"url":"assets/simple/NormalButton/button_down.png"
-	},
-	{
-		"name":"button_normal_png",
-		"scale9grid":"4,3,13,15",
-		"type":"image",
-		"url":"assets/simple/NormalButton/button_normal.png"
-	},
-	{
-		"name":"panel_back_png",
-		"scale9grid":"19,21,15,13",
-		"type":"image",
-		"url":"assets/simple/Panel/Panel_back.png"
-	},
-	{
-		"name":"panel_headeback_png",
-		"scale9grid":"24,18,19,22",
-		"type":"image",
-		"url":"assets/simple/Panel/Panel_headeBack.png"
-	}]
+"resources":
+	[
+		{"name":"bgImage","type":"image","url":"assets/bg.jpg"},
+		{"name":"egretIcon","type":"image","url":"assets/egret_icon.png"},
+        {"name":"description","type":"json","url":"config/description.json"},
+        {"url": "sound/sound.mp3","type": "sound","name": "sound"}
+	],
+
+"groups":
+	[
+        {"name":"preload","keys":"bgImage,egretIcon"},
+        {"keys": "sound","name": "soundload"}
+	]
 }
